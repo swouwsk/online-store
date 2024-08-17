@@ -1,0 +1,8 @@
+body {
+    background-color: #e3a63f; }
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}

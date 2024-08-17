@@ -1,0 +1,38 @@
+body {
+    background-color: #e3a63f; }
+
+.login-form {
+
+    width: 80%; /* Ширина формы */
+
+    margin: auto; /* Размещаем весь элемент по центру */
+
+    display: flex;  /* Создаем flex контейнер */
+
+    align-items: center; /* Все элементы будут по центру */
+
+    flex-direction: column; /* Все элементы будут размещены вертикально */
+
+}
+
+ 
+
+input {
+    font-size: larger;
+    margin-top: 30px; /* Добавляем немного расстояния между input */
+    width: 200;
+
+}
+
+ 
+
+button {
+
+    margin-top: 35px; /* Добавляем немного расстояния между input и кнопкой */
+    background-color: #3E3730;
+    padding: 24px 50px;
+    font-size: larger;
+    color: #AE7E51;
+    font-family: cursive;
+    font-weight: bold;
+}

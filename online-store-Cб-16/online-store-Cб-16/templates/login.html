@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+{% block head %}
+    <title>СТРАНИЦА ВХОДА</title>
+    <link rel="stylesheet" href= "/static/css/login.css">
+{% endblock %}
+{% block content %}
+    <form action="/login" method="post" class="login-form">
+        {{error}}
+        <input type="text" placeholder="введите логин" required name="login">
+        <input type="password" placeholder="введите пароль" required name="password">
+        <button type="submit">отправить</button>
+        <a href="/register">еще не зарегестрированы? преходите по ссылке</a>
+    </form>
+{% endblock %}

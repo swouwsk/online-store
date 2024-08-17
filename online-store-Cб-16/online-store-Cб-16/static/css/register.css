@@ -1,0 +1,46 @@
+body {
+    background-color: #e3a63f; }
+
+.registration-container {
+        background-color: #b65a2c;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        place-content: center;
+        
+        }
+
+.registration-container h2 {
+            text-align: center;
+            padding: 20px;
+        }
+
+.form-group {
+            margin-bottom: 20px;
+        }
+
+.form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+.form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border-radius: 18px;
+            background-color: hwb(194 81% 5%);
+        }
+.form-group button {
+        margin-top: 35px; /* Добавляем немного расстояния между input и кнопкой */
+        background-color: #3E3730;
+        padding: 24px 50px;
+        font-size: larger;
+        color: #AE7E51;
+        font-family: cursive;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+        border-radius: 50px;
+    }
